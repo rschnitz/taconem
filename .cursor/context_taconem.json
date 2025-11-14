@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/cursor.json",
+  "projectContext": {
+    "description": "Taconem is a tri-layer cognitive architecture for AI agents: Tasks, Concepts, Embeddings. This file supplies global context for the Cursor AI agent.",
+    "contextFiles": [
+      "TACONEM_CONTEXT.md",
+      "AGENTS.md",
+      "MANIFEST.yaml",
+      "taconem/core",
+      "taconem/cli",
+      "taconem/daemon",
+      "taconem/models"
+    ],
+    "rules": [
+      "Preserve the 3-layer ontology: Tasks (ephemeral), Concepts (persistent), Embeddings (long-term).",
+      "Follow bead model: beads stored as markdown under beads/* and loaded via MANIFEST.yaml.",
+      "Keep subsystems modular: core ≠ cli ≠ daemon.",
+      "Avoid large scaffold scripts — create/edit files directly.",
+      "Ask before renaming directories or making structural changes.",
+      "Keep commits small, readable, and incremental."
+    ]
+  }
+}

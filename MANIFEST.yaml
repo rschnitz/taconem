@@ -1,0 +1,10 @@
+projects:
+  - name: bootstrap
+    description: "Initial seed project defining core beads and ontology for Taconem."
+    beads_path: "beads/bootstrap"
+    agents_file: "beads/bootstrap/AGENTS.md"
+    manifest_file: "beads/bootstrap/MANIFEST.yaml"
+    tags:
+      - core
+      - ontology
+      - bootstrap

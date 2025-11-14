@@ -1,0 +1,20 @@
+{
+  "taconem.context": {
+    "description": "Project-wide context for AI assistants working on Taconem.",
+    "files": [
+      "TACONEM_CONTEXT.md",
+      "AGENTS.md",
+      "MANIFEST.yaml",
+      "taconem/core",
+      "taconem/cli",
+      "taconem/daemon",
+      "taconem/models"
+    ],
+    "rules": [
+      "Maintain Task/Concept/Embedding ontology.",
+      "Use beads stored in beads/* with manifest-driven resolution.",
+      "Avoid generating giant scripts; prefer direct edits.",
+      "Confirm intent before altering project structure."
+    ]
+  }
+}

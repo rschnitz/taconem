@@ -1,2 +1,3 @@
-# taconem
-Tri-layer cognitive architecture for AI agents — unifying Tasks, Concepts, and Embeddings into one coherent system.
+# Taconem
+
+Taconem is a tri-layer cognitive architecture for AI agents: Tasks, Concepts, and Embeddings.

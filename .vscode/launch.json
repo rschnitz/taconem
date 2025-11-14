@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Taconem: Run Daemon (module)",
+      "type": "python",
+      "request": "launch",
+      "module": "taconem.daemon.main",
+      "justMyCode": true,
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
+    }
+  ]
+}

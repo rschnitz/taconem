@@ -1,0 +1,23 @@
+{
+  "name": "taconem-cli-context",
+  "description": "Bootstrap context for ChatGPT CLI when working inside the Taconem project.",
+  "loadFiles": [
+    "TACONEM_CONTEXT.md",
+    "AGENTS.md",
+    "MANIFEST.yaml"
+  ],
+  "rules": [
+    "Honor the 3-layer ontology (Tasks, Concepts, Embeddings).",
+    "Use MANIFEST.yaml to discover beads and project definitions.",
+    "Never write large scaffold scripts; modify files directly.",
+    "Keep subsystems isolated: cli, daemon, core, models.",
+    "Ask before creating new folders or top-level modules.",
+    "When adding new beads, follow the bead directory structure.",
+    "Keep commits and diffs small."
+  ],
+  "modelBehavior": {
+    "tone": "concise-technical",
+    "avoid": ["buzzwords", "sycophancy", "monolithic diffs"],
+    "preferredStyle": "small patches, incremental refactors"
+  }
+}
