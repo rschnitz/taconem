@@ -1,0 +1,7 @@
+project:
+  name: bootstrap
+  aguns:
+    - Root
+    - Summary
+    - Ontology
+    - BeadDaemon
